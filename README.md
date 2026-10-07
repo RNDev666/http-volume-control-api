@@ -2,21 +2,21 @@
 
 A lightweight REST API server for controlling Windows audio devices and application volumes using `svcl.exe`.
 
-> **📱 Web Interface Available**: This API is designed to work with the [HTTP Volume Control Web](https://github.com/bezalel6/http-volume-control-web) client for a complete audio control solution.
+> **📱 Web Interface Available**: This API is designed to work with the [HTTP Volume Control Web](https://github.com/RNDev666/http-volume-control-web) client for a complete audio control solution.
 
 ## Project Structure
 
 This is part of the **HTTP Volume Control** project consisting of two repositories:
 
-- **[http-volume-control-api](https://github.com/bezalel6/http-volume-control-api)** ← *You are here* - REST API server (this repository)
-- **[http-volume-control-web](https://github.com/bezalel6/http-volume-control-web)** - Modern React web interface
+- **[http-volume-control-api](https://github.com/RNDev666/http-volume-control-api)** ← *You are here* - REST API server (this repository)
+- **[http-volume-control-web](https://github.com/RNDev666/http-volume-control-web)** - Modern React web interface
 
 ## Quick Start (Complete Setup)
 
 1. **Clone both repositories:**
    ```bash
-   git clone https://github.com/bezalel6/http-volume-control-api.git
-   git clone https://github.com/bezalel6/http-volume-control-web.git
+   git clone https://github.com/RNDev666/http-volume-control-api.git
+   git clone https://github.com/RNDev666/http-volume-control-web.git
    ```
 
 2. **Start the API server:**
@@ -235,6 +235,12 @@ The API returns specific error codes for different scenarios:
 - `SESSION_EXPIRED` - Session token has expired
 - `SESSION_LIMIT_REACHED` - Maximum number of sessions reached
 - `UNAUTHORIZED` - Missing or invalid authorization
+
+## Support
+
+If this project is useful to you, you can support my work on Ko-fi:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rndev666)
 
 ## License
 

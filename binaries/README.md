@@ -17,7 +17,7 @@ Download `http-volume-control-binaries.zip` from the releases page and extract a
    - Note: Also download GetNir.exe (below) as it's required for parsing svcl.exe output
 2. **GetNir.exe**: Download from [NirSoft GetNir](https://www.nirsoft.net/utils/getnir.html)
    - This is an additional tool required by svcl.exe for CSV output filtering
-3. **extracticon.exe**: Build from source at [ExtractIcon](https://github.com/bezalel6/ExtractIcon) or download pre-built binary from releases
+3. **extracticon.exe**: Build from source at [ExtractIcon](https://github.com/RNDev666/ExtractIcon) or download pre-built binary from releases
 
 ## Verification
 After placing files, this folder should contain:
